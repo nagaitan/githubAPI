@@ -253,7 +253,7 @@
 				157B0666247ABC6B0079D9AC /* Frameworks */,
 				157B0667247ABC6B0079D9AC /* Resources */,
 				4D451FB52FFE0D6CC539D88C /* [CP] Embed Pods Frameworks */,
-				15F82E41247BED9100D559AC /* SwiftLint */,
+				15C2620C247BF1EB005E8B1F /* SwiftLint */,
 			);
 			buildRules = (
 			);
@@ -394,7 +394,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GitbubAPI-GitbubAPIUITests/Pods-GitbubAPI-GitbubAPIUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		15F82E41247BED9100D559AC /* SwiftLint */ = {
+		15C2620C247BF1EB005E8B1F /* SwiftLint */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -410,7 +410,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "if which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\"\n";
 		};
 		1CD64B70049516812CCD20DF /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;

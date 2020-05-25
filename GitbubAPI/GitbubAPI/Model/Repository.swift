@@ -5,8 +5,6 @@
 //  Created by Adi Wibowo on 25/05/20.
 //  Copyright © 2020 Adi Wibowo. All rights reserved.
 //
-
-
 import Foundation
 
 struct Repository: Decodable {
@@ -14,14 +12,12 @@ struct Repository: Decodable {
     let description: String
     let starsCount: Int
     let owner: Author
-    
     enum RepositoryKeys: String, CodingKey {
         case name = "name"
         case description = "description"
         case starsCount = "stargazers_count"
         case owner = "owner"
     }
-    
     init(from decoder: Decoder) throws {
         let container = try decoder.container(keyedBy: RepositoryKeys.self)
         self.name = try container.decode(String.self, forKey: .name)

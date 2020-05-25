@@ -11,14 +11,11 @@ import RxCocoa
 import RxSwift
 
 class Splashscreen: UIViewController {
-
     @IBOutlet weak var btnGo: UIButton!
     let disposeBag = DisposeBag()
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        
         btnGo.rx.tap.do(onNext: {
             let cont = RepoListVC()
             cont.modalPresentationStyle = .fullScreen
@@ -26,14 +23,5 @@ class Splashscreen: UIViewController {
         })
         .subscribe()
         .disposed(by: disposeBag)
-
-        
     }
-    
-    override func viewDidAppear(_ animated: Bool) {
-        
-    }
-
-
 }
-
