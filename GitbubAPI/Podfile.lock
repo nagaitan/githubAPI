@@ -1,0 +1,56 @@
+PODS:
+  - Alamofire (4.8.2)
+  - AlamofireImage (3.5.2):
+    - Alamofire (~> 4.8)
+  - Nimble (8.0.9)
+  - Quick (2.2.0)
+  - RxCocoa (5.1.1):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxRelay (5.1.1):
+    - RxSwift (~> 5)
+  - RxSwift (5.1.1)
+  - RxTest (5.1.1):
+    - RxSwift (~> 5)
+  - SwiftLint (0.39.2)
+  - SwiftyJSON (5.0.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.8.1)
+  - AlamofireImage (~> 3.5.0)
+  - Nimble
+  - Quick
+  - RxCocoa
+  - RxSwift
+  - RxTest
+  - SwiftLint
+  - SwiftyJSON
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - AlamofireImage
+    - Nimble
+    - Quick
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+    - RxTest
+    - SwiftLint
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  AlamofireImage: 63cfe3baf1370be6c498149687cf6db3e3b00999
+  Nimble: 98b888285a615fd34f20e61753cf58ea1402bde4
+  Quick: 7fb19e13be07b5dfb3b90d4f9824c855a11af40e
+  RxCocoa: 32065309a38d29b5b0db858819b5bf9ef038b601
+  RxRelay: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
+  RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
+  RxTest: 711632d5644dffbeb62c936a521b5b008a1e1faa
+  SwiftLint: 22ccbbe3b8008684be5955693bab135e0ed6a447
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+
+PODFILE CHECKSUM: 58eb35aceabe044f8d5344784292c85824956c9b
+
+COCOAPODS: 1.9.2

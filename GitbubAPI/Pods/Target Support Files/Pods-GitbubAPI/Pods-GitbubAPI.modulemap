@@ -1,0 +1,6 @@
+framework module Pods_GitbubAPI {
+  umbrella header "Pods-GitbubAPI-umbrella.h"
+
+  export *
+  module * { export * }
+}
